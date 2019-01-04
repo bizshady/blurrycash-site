@@ -10,6 +10,15 @@
 
     <title>Blurrycash - Private GPU/ASIC Resistant Cryptocurrency</title>
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -17,9 +26,19 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
 
     <!-- Custom styles -->
     <link href="css/styles.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      .custom-font {
+        font-family: 'Armata', sans-serif; 
+      }
+      .btn-m {
+        margin: 10px;
+      }
+    </style>
 
   </head>
 
@@ -28,8 +47,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Blurrycash</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand js-scroll-trigger custom-font" href="#page-top">
+          <img src="img/blurrycashico.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Blurrycash
+         </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
@@ -39,7 +61,10 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+              <a class="nav-link js-scroll-trigger" href="#info">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#links">Links</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Downloads</a>
@@ -66,7 +91,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2 class="text-white mb-4">Whats the story here?</h2>
-            <p class="text-white-50">Blurrycash was created by forking the <a href="https://www.getnerva.org">Nerva (XNV)</a> Fork Blur's chain at block 266267.  This means that Blur private keys or seeds will work on our network and once restored you will have coins on both chains. We believe that the project should go in a different direction before it can no longer be fixed and thus damage the reputation of its parents in the process. <br> <br> Read more about why below.</p>
+            <p class="text-white-50">Blurrycash was created by forking the <a href="https://www.getnerva.org">Nerva (XNV)</a> Fork Blur's chain at block 266267.  This means that Blur private keys or seeds will work on our network and once restored you will have coins on both chains. We believe that the project should go in a different direction before it can no longer be fixed thus damaging the reputation of its parents in the process. <br> <br> Read more about why below.</p>
           </div>
         </div>
         <!--img src="img/ipad.png" class="img-fluid" alt=""-->
@@ -74,7 +99,7 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="projects-section bg-light">
+    <section id="info" class="projects-section bg-light">
       <div class="container">
 
         <!-- Feature Row -->
@@ -129,11 +154,22 @@
       </div>
     </section>
 
+    <section class="container" id="links" style="margin-bottom: 200px;">
+      <div>
+        <h1 class="custom-font" style="margin-top: 100px; margin-bottom: 100px; text-align: center;">Links</h1>
+      </div>
+      <div class="btn-toolbar justify-content-center">
+       <a href="https://discord.gg/nSa3ahA" class="btn btn-primary btn-m">Discord</a>
+       <a href="https:explorer.blurrycash.cash" class="btn btn-primary btn-m">Block Explorer</a>
+       <a href="https://github.com/bizshady" class="btn btn-primary btn-m">Github</a>
+      </div>
+    </section>
+
     <!-- Signup Section -->
     <section id="signup" class="signup-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-10 col-lg-8 mx-auto text-center" style="margin-top: 200px;">
+          <div class="col-md-10 col-lg-8 mx-auto text-center" style="margin-top: 350px;">
 
             <!-- i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
@@ -190,7 +226,7 @@
                 <h4 class="text-uppercase m-0">Mac</h4>
                 <hr class="my-4">
                 <div class="button text-black-50">
-                  <a href="#">Download</a>
+                  <a>COMING SOON</a>
                 </div>
               </div>
             </div>
@@ -198,7 +234,7 @@
         </div>
 
         <div class="social d-flex justify-content-center">
-          <a href="https://discord.gg/nSa3ahB" class="mx-2">
+          <a href="https://discord.gg/nSa3ahA" class="mx-2">
             <i class="fab fa-discord"></i>
           </a>
           <a href="https://github.com/bizshady/blurrycash" class="mx-2">
